@@ -200,7 +200,7 @@ left: 60%;
 
 .blog {
   background: rgb(195, 195, 200);
-  height: 400px;
+  height: 420px;
 }
 
 .blog__text {
@@ -243,4 +243,36 @@ left: 60%;
 .box__footer {
   font-size: 3px;
   padding: 0px 10px;
+}
+
+.blog__link {
+  margin-top: 260px;
+  position: absolute;
+  left: 45%;
+  width: 150px;
+  padding: 10px 0;
+  border-radius: 30px;
+  text-align: center;
+  display: block;
+  border: 1px solid rgb(246, 101, 246);
+  background: white;
+}
+
+.company {
+  margin-top: 70px;
+  position: relative;
+  left: 35%;
+}
+
+.company__text {
+  color: red;
+}
+
+.company__title {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.company__content {
+  margin-top: 30px;
 }
