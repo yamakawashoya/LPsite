@@ -276,3 +276,37 @@ left: 60%;
 .company__content {
   margin-top: 30px;
 }
+
+table {
+  border: 1px solid ;
+  width: 35%;
+  height: 250px;
+}
+
+th {
+  border: 1px solid;
+  width: 30%;
+  padding: 12px;
+  background: gainsboro;
+}
+
+td {
+  border: 1px solid;
+  padding-left: 15px;
+}
+
+.img__link {
+  margin-top: 40px;
+  position: relative;
+  display: block;
+}
+
+.img__link__left {
+  width: 50%;
+  margin: auto 0 0 0;
+}
+
+.img__link__right {
+  width: 50%;  
+  margin: 0 0 0 auto;
+}
