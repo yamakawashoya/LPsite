@@ -43,31 +43,112 @@ header {
 
 .commit__title {
   margin-right: auto;
-  font-size: 30px;
-  color: blue;
+  font-size: 45px;
+  color: red;
   position: relative;
-  top: -220px;
-  left: 25%;
+  top: -350px;
+  left: 30%;
 }
 
 .commit__subtitle {
   margin-right: auto;
-  font-size: 15px;
-  color: blue;
+  font-size: 23px;
+  color: red;
   position: relative;
-  top: -180px;
-  left: 25%;
+  top: -320px;
+  left: 30%;
 }
 
 .commit__memo {
   margin-right: auto;
   color: slategray;
   position: relative;
-  top: -170px;
-  left: 25%;
-  font-size: 8px;
+  top: -300px;
+  left: 30%;
+  font-size: 18px;
 }
 
 span {
   color: aqua;
+}
+
+.news {
+  margin-left: 30%;
+  margin-right: 30%;
+}
+.news__text {
+  color: red;
+  padding-bottom: 10px;
+}
+
+.news__title {
+  font-size: 20px;
+  padding-bottom: 25px;
+  border-bottom: 2px solid grey;
+}
+
+.news__list {
+    margin-left: 30%;
+    margin-top: 30px;
+    margin-right: 30%;
+    border-bottom: 2px solid grey;
+    padding-bottom: 25px;
+}
+.news__list__content {
+  padding: 10px;
+  margin-bottom: 18px;
+  list-style: none;
+  border-bottom: 1px solid rgb(170, 160, 160);
+}
+
+.news__btn {
+  border-radius: 30px;
+  background-color: brown;
+  text-align: center;
+  color: aliceblue;
+  margin:  0px 20px;
+  font-size: 18px;
+  padding: 4px;
+}
+
+.news__list li {
+  font-size: 15px;
+}
+
+.about {
+  background-color: rgb(223, 216, 216);
+  margin-top: 160px;
+  height: 400px;
+}
+
+.about__text {
+  position: relative;
+  top: 30px;
+  left: 47%;
+  color: red;
+}
+
+.about__title {
+  position: relative;
+  top: 30px;
+  left: 41%;
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.about__content {
+  position: relative;
+  left: 30%;
+  margin-top: 70px;
+}
+.about__content__sub {
+  position: relative;
+  left: 30%;
+  margin-top: 40px;
+}
+
+.about__img {
+position: absolute;
+top: 1381px;
+left: 60%;
 }
