@@ -54,7 +54,7 @@ header {
 .commit__subtitle {
   margin-right: auto;
   font-size: 23px;
-  color: rgb(251, 1, 1);
+  color: red;
   position: relative;
   top: -320px;
   left: 30%;
@@ -70,7 +70,7 @@ header {
 }
 
 span {
-  color: rgb(57, 182, 182);
+  color: aqua;
 }
 
 .news {
@@ -272,7 +272,6 @@ left: 60%;
 
 .company__text {
   color: red;
-    font-family: 'sacrament', cursive;
 }
 
 .company__title {
@@ -369,9 +368,10 @@ font-size: 25px;
   position: absolute;
   top: 50%;
   left: 15px;
-  background: url(../img/mailicon.svg) no-repeat;
+  background: url(../svg/mailicon.svg) no-repeat;
   background-size: cover;
   width: 30px;
+  height: 30px;
   transform: translateY(-50%);
 }
 
