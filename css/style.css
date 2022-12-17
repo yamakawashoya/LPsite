@@ -285,6 +285,7 @@ left: 60%;
 
 .blog__cat__box img {
   width: 100%;
+  border-radius: 10px 10px 0 0;
 }
 
 .box__title  {
@@ -296,6 +297,7 @@ left: 60%;
   font-size: 14px;
   position: relative;
   top: -122px;
+  border-radius: 10px 0 0 0;
 }
 
 .box__text {
@@ -362,18 +364,19 @@ td {
 .flex {
   position: absolute;
   display: flex;
+  width: 100%;
 }
 
 .img__link {
-  margin-top: 40px;
+  margin-top: 50px;
 }
 
 .img__link__left {
-
+  width: 50%;
 }
 
 .img__link__right {
-
+  width: 60%; 
 }
 
 .img__content__left {
@@ -415,10 +418,11 @@ font-size: 25px;
   text-decoration: none;
   border-radius: 30px;
   background: linear-gradient(90deg,#f50283,#701470);
-  width: 100px;
-  margin-left: 655px;
+  width: 160px;
+  margin-left: 628px;
   box-shadow: 0px 5px 0px rgba(255, 5, 0, 0.2);
   margin-bottom: 20px;
+  position: relative;
 
 }
 
@@ -429,9 +433,10 @@ font-size: 25px;
   left: 15px;
   background: url(../svg/mailicon.svg) no-repeat;
   background-size: cover;
-  width: 30px;
-  height: 30px;
+  width: 18px;
+  height: 18px;
   transform: translateY(-50%);
+  text-align: left;
 }
 
 footer {
