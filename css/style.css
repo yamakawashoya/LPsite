@@ -262,7 +262,7 @@ span {
 }
 
 .blog__text {
-  margin: auto;
+  margin: 0 auto;
   left: 30%;
   margin-top: 80px;
   color: rgb(187, 5, 78);
@@ -303,7 +303,7 @@ span {
   padding: 3px;
   font-size: 14px;
   position: relative;
-  top: -122px;
+  top: -154px;
   border-radius: 10px 0 0 0;
 }
 
@@ -319,15 +319,13 @@ span {
 }
 
 .blog__link {
-  margin-top: 320px;
   width: 150px;
   padding: 10px 0;
   border-radius: 30px;
   text-align: center;
-  display: block;
   border: 2px solid rgb(246, 101, 246);
   background: white;
-  margin-left: 43%;
+  margin: auto;
 }
 
 .company {
