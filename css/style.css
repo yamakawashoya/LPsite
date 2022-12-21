@@ -316,13 +316,12 @@ span {
 
 .blog__link {
   width: 150px;
-  height: 40px;
+  height: 20px;
   padding: 10px 0;
   border-radius: 30px;
-  text-align: center;
   border: 2px solid rgb(246, 101, 246);
   background: white;
-  margin: 30px auto;
+  margin: 300px auto;
 }
 
 .company {
@@ -371,6 +370,7 @@ td {
 
 .img__link {
   margin-top: 50px;
+  width: 100%;
 }
 
 .img__link__left {
