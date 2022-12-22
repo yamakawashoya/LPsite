@@ -1,6 +1,6 @@
-* {
+/** {
   outline: 1px solid red !important;
-}
+}*/
 
 body{
   width: 100%;
@@ -386,6 +386,10 @@ td {
 
 .img__link__right {
 width: 100%;
+}
+
+.img__size {
+  width: 100%;
 }
 
 .img__content__left {
