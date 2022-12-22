@@ -109,6 +109,7 @@ span {
   border-bottom: 2px solid grey;
   padding-bottom: 40px;
   width: 50%;
+  white-space: nowrap;
 }
 .news__list__content {
   padding-top: 20px;
@@ -154,10 +155,12 @@ span {
 .about__content {
   margin-left: 20%;
   margin-top: 70px;
+  word-break: keep-all;
 }
 .about__content__sub {
   margin-left: 20%;
   margin-top: 40px;
+  word-break: break-all;
 }
 
 .about__img {
@@ -165,6 +168,7 @@ span {
   height: 40%;
   margin-top: -135px;
   margin-left: 55%;
+  word-break: keep-all;
 }
 
 .service__text {
