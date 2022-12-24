@@ -281,9 +281,11 @@ span {
   font-size: 20px;
 }
 
-.blog__card {
-  position: relative;
+.blog__cat {
   display: flex;
+  justify-content: space-between;
+  width: 60%;
+  margin: 0 auto;
 }
 
 .blog__cat__box {
